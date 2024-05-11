@@ -5,10 +5,12 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Bot credentials 
-TOKEN = '6683920879:AAExvQONXXukjqhqNPMWLtwgJN_SGHrA12E'
-BOT_USERNAME = '@car_bookingbot'
-API_id = '20980864'
-API_hash = 'd56e104d5aabeb4fd7f24412c934d859'
+TOKEN = '****'
+BOT_USERNAME = '@****'
+API_id = '****'
+API_hash = '****'
+# Replace '****' with your bot's credentials 
+# Refer to README file for a step by step guide on how to get your own personal telegram API id and hash, as well as your bot token.
 
 # Start the bot session 
 client = TelegramClient('test one', API_id, API_hash).start(bot_token=TOKEN)
